@@ -1,6 +1,6 @@
 
 <p align="center">
-	<img src="public/logo.png" alt="ToolZone logo" width="96" />
+	<img src="public/logo.png" alt="ToolZone logo" width="296" />
 </p>
 
 # ToolZone
