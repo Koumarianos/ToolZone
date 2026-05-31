@@ -1,3 +1,8 @@
+
+<p align="center">
+	<img src="public/logo.png" alt="ToolZone logo" width="96" />
+</p>
+
 # ToolZone
 
 A browser-first production console for PDF, image, web, text, and developer utilities, built to run fast in the client with a small Node backend for the URL shortener service.
