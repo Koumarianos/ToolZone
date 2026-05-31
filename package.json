@@ -1,0 +1,48 @@
+{
+  "name": "toolzone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node server/index.js\"",
+    "backend": "node server/index.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "concurrently": "^10.0.0",
+    "cors": "^2.8.6",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.9",
+    "express": "^5.2.1",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^10.12.16",
+    "fuse.js": "^6.6.2",
+    "jspdf": "^4.2.1",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.264.0",
+    "nanoid": "^5.1.11",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.7.284",
+    "qrcode": "^1.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-qr-code": "^2.0.7",
+    "react-router-dom": "^6.14.1",
+    "sonner": "^0.6.0",
+    "tailwind-merge": "^1.14.0",
+    "uuid": "^14.0.0",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.2.2",
+    "vite": "^8.0.14"
+  }
+}
